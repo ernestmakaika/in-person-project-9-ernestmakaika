@@ -1,146 +1,99 @@
 [
   {
-    "id": "task-manager",
-    "title": "Task Manager App",
-    "description": "A React-based task management application with CRUD operations",
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "description": "Full-stack online shopping platform with cart, checkout, and payment integration",
     "category": "Web Application",
-    "date": "2025",
+    "date": "2024",
     "technologies": [
       "React",
-      "JavaScript",
-      "CSS",
-      "Local Storage"
+      "Node.js",
+      "MongoDB",
+      "Stripe"
     ],
-    "imageUrl": "/images/task-manager.png",
-    "githubUrl": "https://github.com/yourusername/task-manager",
-    "liveUrl": "https://task-manager-demo.netlify.app",
-    "details": "A comprehensive task management application built with React. Features include task creation, editing, deletion, status tracking, and filtering. Data persists using browser local storage.",
-    "features": [
-      "Create, read, update, and delete tasks",
-      "Filter tasks by status",
-      "Persistent storage using localStorage",
-      "Responsive design for all devices",
-      "Keyboard navigation support"
-    ]
+    "imageUrl": "https://via.placeholder.com/600x400/4F46E5/ffffff?text=E-Commerce",
+    "githubUrl": "https://github.com",
+    "liveUrl": "https://example.com",
+    "details": "Full-stack online shopping platform with cart, checkout, and payment integration."
   },
   {
     "id": "weather-dashboard",
     "title": "Weather Dashboard",
-    "description": "Real-time weather information with beautiful visualizations",
-    "category": "Data Visualization",
-    "date": "2025",
+    "description": "Real-time weather application with forecasts, maps, and location search",
+    "category": "Web Application",
+    "date": "2024",
     "technologies": [
       "React",
-      "API Integration",
-      "Chart.js",
-      "CSS Grid"
+      "OpenWeather API",
+      "Chart.js"
     ],
-    "imageUrl": "/images/weather-app.png",
-    "githubUrl": "https://github.com/yourusername/weather-dashboard",
-    "liveUrl": "https://weather-dashboard-demo.netlify.app",
-    "details": "A weather dashboard that fetches real-time weather data from OpenWeatherMap API and displays it with interactive charts and a clean, modern interface.",
-    "features": [
-      "Real-time weather data",
-      "Search by city name",
-      "5-day forecast",
-      "Interactive temperature charts",
-      "Responsive grid layout"
-    ]
+    "imageUrl": "https://via.placeholder.com/600x400/06B6D4/ffffff?text=Weather+App",
+    "githubUrl": "https://github.com",
+    "liveUrl": "https://example.com",
+    "details": "Real-time weather application with forecasts, maps, and location search."
+  },
+  {
+    "id": "task-manager",
+    "title": "Task Management Mobile App",
+    "description": "React Native application for team collaboration and task tracking",
+    "category": "Mobile App",
+    "date": "2024",
+    "technologies": [
+      "React Native",
+      "Firebase",
+      "Redux"
+    ],
+    "imageUrl": "https://via.placeholder.com/600x400/10B981/ffffff?text=Mobile+App",
+    "githubUrl": "https://github.com",
+    "details": "React Native application for team collaboration and task tracking."
   },
   {
     "id": "portfolio-website",
-    "title": "Personal Portfolio",
-    "description": "A modern portfolio website built with React Router",
-    "category": "Portfolio",
-    "date": "2025",
-    "technologies": [
-      "React",
-      "React Router",
-      "CSS Animations",
-      "Vite"
-    ],
-    "imageUrl": "/images/portfolio.png",
-    "githubUrl": "https://github.com/yourusername/portfolio",
-    "liveUrl": "https://yourportfolio.com",
-    "details": "My personal portfolio website showcasing my projects, skills, and experience. Built with React Router for smooth navigation and CSS animations for engaging user experience.",
-    "features": [
-      "Multi-page navigation with React Router",
-      "Smooth page transitions",
-      "Dark/light theme toggle",
-      "Contact form integration",
-      "SEO optimized"
-    ]
-  },
-  {
-    "id": "ecommerce-store",
-    "title": "E-commerce Store",
-    "description": "Online shopping platform with cart functionality",
-    "category": "E-commerce",
+    "title": "Portfolio Website",
+    "description": "Personal portfolio showcasing projects and skills with modern animations",
+    "category": "Web Application",
     "date": "2024",
     "technologies": [
       "React",
-      "Context API",
-      "Stripe API",
-      "Node.js"
-    ],
-    "imageUrl": "/images/ecommerce.png",
-    "githubUrl": "https://github.com/yourusername/ecommerce",
-    "liveUrl": "https://ecommerce-demo.netlify.app",
-    "details": "A full-featured e-commerce platform with product catalog, shopping cart, and checkout functionality. Uses Context API for state management and Stripe for payment processing.",
-    "features": [
-      "Product catalog with filtering",
-      "Shopping cart with Context API",
-      "User authentication",
-      "Stripe payment integration",
-      "Order history tracking"
-    ]
-  },
-  {
-    "id": "blog-platform",
-    "title": "Blog Platform",
-    "description": "Markdown-based blogging platform with CMS",
-    "category": "Content Management",
-    "date": "2024",
-    "technologies": [
-      "React",
-      "Markdown",
-      "Firebase",
+      "Framer Motion",
       "Tailwind CSS"
     ],
-    "imageUrl": "/images/blog.png",
-    "githubUrl": "https://github.com/yourusername/blog",
-    "liveUrl": "https://blog-demo.netlify.app",
-    "details": "A modern blogging platform with markdown support, allowing users to write and publish articles. Features a clean reading experience and admin dashboard.",
-    "features": [
-      "Markdown editor with live preview",
-      "Category and tag system",
-      "Search functionality",
-      "Comment system",
-      "Admin dashboard"
-    ]
+    "imageUrl": "https://via.placeholder.com/600x400/F59E0B/ffffff?text=Portfolio",
+    "githubUrl": "https://github.com",
+    "liveUrl": "https://example.com",
+    "details": "Personal portfolio showcasing projects and skills with modern animations."
   },
   {
-    "id": "chat-application",
-    "title": "Real-time Chat App",
-    "description": "Instant messaging with WebSocket connections",
-    "category": "Communication",
+    "id": "ml-dashboard",
+    "title": "Machine Learning Dashboard",
+    "description": "Interactive visualization tool for ML model performance and data analysis",
+    "category": "Data Visualization",
     "date": "2024",
     "technologies": [
+      "Python",
       "React",
-      "Socket.io",
-      "Express",
-      "MongoDB"
+      "D3.js",
+      "TensorFlow"
     ],
-    "imageUrl": "/images/chat-app.png",
-    "githubUrl": "https://github.com/yourusername/chat-app",
-    "liveUrl": "https://chat-demo.herokuapp.com",
-    "details": "A real-time chat application supporting multiple chat rooms, private messaging, and file sharing. Built with Socket.io for WebSocket communication.",
-    "features": [
-      "Real-time messaging",
-      "Multiple chat rooms",
-      "Private messaging",
-      "File and image sharing",
-      "Online user status"
-    ]
+    "imageUrl": "https://via.placeholder.com/600x400/EF4444/ffffff?text=ML+Dashboard",
+    "githubUrl": "https://github.com",
+    "liveUrl": "https://example.com",
+    "details": "Interactive visualization tool for ML model performance and data analysis."
+  },
+  {
+    "id": "social-analytics",
+    "title": "Social Media Analytics Tool",
+    "description": "Track and analyze social media metrics across multiple platforms",
+    "category": "Web Application",
+    "date": "2024",
+    "technologies": [
+      "Vue.js",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "imageUrl": "https://via.placeholder.com/600x400/8B5CF6/ffffff?text=Analytics",
+    "githubUrl": "https://github.com",
+    "liveUrl": "https://example.com",
+    "details": "Track and analyze social media metrics across multiple platforms."
   }
 ]

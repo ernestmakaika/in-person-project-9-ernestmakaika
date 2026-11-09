@@ -14,7 +14,7 @@ function AboutPage() {
             }}
           />
           <div className="about-text">
-            <h2>Hello! I'm a passionate developer</h2>
+            <h2>Hello! I'm John Doe, a Full Stack Developer</h2>
             <p>
               I love creating web applications that solve real problems and
               provide great user experiences. With a strong foundation in both
@@ -35,28 +35,22 @@ function AboutPage() {
           <div className="skill-category">
             <h3>Frontend</h3>
             <ul>
-              <li>React & React Router</li>
-              <li>JavaScript (ES6+)</li>
-              <li>HTML5 & CSS3</li>
-              <li>Responsive Design</li>
+              <li>React (90%)</li>
+              <li>JavaScript (95%)</li>
             </ul>
           </div>
           <div className="skill-category">
             <h3>Backend</h3>
             <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>RESTful APIs</li>
-              <li>MongoDB</li>
+              <li>Node.js (80%)</li>
+              <li>Python (75%)</li>
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Tools</h3>
+            <h3>Database</h3>
             <ul>
-              <li>Git & GitHub</li>
-              <li>VS Code</li>
-              <li>npm/yarn</li>
-              <li>Vite</li>
+              <li>MongoDB (70%)</li>
+              <li>PostgreSQL (75%)</li>
             </ul>
           </div>
         </div>

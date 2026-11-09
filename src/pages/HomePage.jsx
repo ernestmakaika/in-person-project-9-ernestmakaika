@@ -1,4 +1,5 @@
-// TODO: Import Link from react-router-dom for navigation
+//Import Link from react-router-dom 
+import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 function HomePage() {
@@ -20,17 +21,23 @@ function HomePage() {
       <section className="hero">
         <h1>{greeting}! I'm a Full Stack Developer</h1>
         <p className="hero-subtitle">
-          I build modern web applications with React, Node.js, and more.
+          Hi, I'm John Doe. Full Stack Developer passionate about building
+          amazing web experiences.
+        </p>
+        <p className="hero-description">
+          I specialize in React, Node.js, and modern web technologies.
+          Currently focused on building scalable applications and exploring
+          machine learning integrations.
         </p>
 
-        {/* TODO: Replace these buttons with Link components for navigation */}
+        {/* Add Link components for navigation */}
         <div className="hero-buttons">
-          <button className="btn btn-primary">
-            View My Projects
-          </button>
-          <button className="btn btn-secondary">
-            Get In Touch
-          </button>
+          <Link to="/projects" className="btn btn-primary">
+              View My Projects
+            </Link>
+            <Link to="/contact" className="btn btn-secondary">
+              Get In Touch
+            </Link>
         </div>
       </section>
 
